@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body{
+            background-image: url(https://img.freepik.com/premium-photo/background-texture-dark-blue-brick-wall-brick-wall-design_379858-7265.jpg);
+
+        }
+
+        .form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.4em;
+  background-color: #171717;
+  border-radius: 20px;
+}
+
+#heading {
+  text-align: center;
+  margin: 2em;
+  color: rgb(0, 255, 200);
+  font-size: 1.2em;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #171717;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.input-icon {
+  height: 1.5em;
+  width: 1.5em;
+  fill: rgb(0, 255, 200);
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: rgb(0, 255, 200);
+}
+
+.form .btn {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2.5em;
+}
+
+.button1 {
+  padding: 0.5em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  border-radius: 5px;
+  margin-right: 0.5em;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  color: rgb(0, 0, 0);
+}
+
+.button1:hover {
+  background-image: linear-gradient(163deg, #00642f 0%, #13034b 100%);
+  color: rgb(0, 255, 200);
+}
+
+.button2 {
+  padding: 0.5em;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  /* transition: .4s ease-in-out; */
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  color: rgb(0, 0, 0);
+}
+
+.button2:hover {
+  background-image: linear-gradient(163deg, #00642f 0%, #13034b 100%);
+  color: rgb(0, 255, 200);
+}
+
+.button3 {
+  margin-bottom: 2em;
+  padding: 10px 80px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  color: rgb(0, 0, 0);
+}
+
+.button3:hover {
+  background-image: linear-gradient(163deg, #00a04bfa 0%, #d10050 100%);
+  color: rgb(255, 255, 255);
+}
+
+
+
+.card:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+
+.wrapper {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height:100vh;
+  width:100%;
+  background-size:cover;
+  background-position:center;
+}
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar"> <!-- tegi vazifasi veb-saytning navigatsiya bo'limini belgilashdir  -->
+        <div class="container">
+          <div class="navigation">
+            <div class="logo">
+              <a href="#">Party time. By Abdulloh</a>
+            </div>
+            <div class="navbar-nav">
+              <a href="index.html">HOME</a>
+              <a href="bronza.html">BRONZA</a>
+              <a href="silver.html">SILVER</a>
+              <a href="gold.html">Gold</a>
+              <a href="about.html">ABOUT</a>
+              <a href="signup.html">SIGN UP</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+    <div class="wrapper">
+        <div class="card">
+          <div class="card2">
+            <form class="form">
+            <p id="heading">To contact us</p>
+            <div class="field">
+            <svg viewBox="0 0 16 16" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg" class="input-icon">
+            </svg>
+              <input type="text" class="input-field" placeholder="Username" autocomplete="off">
+            </div>
+            <div class="field">
+            <svg viewBox="0 0 16 16" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg" class="input-icon">
+            </svg>
+              <input type="phone number" class="input-field" placeholder="Phone number">
+            </div>
+            <div class="btn">
+            </div>
+            <button class="button3">Shipping <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+        </form>
+          </div>
+            </div>
+          </div>
+</body>
+</html>
